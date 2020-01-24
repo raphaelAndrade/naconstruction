@@ -30,7 +30,13 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
+      $(".white-logo").removeClass('displayBlock')
+      $(".white-logo").addClass('displayNone')
+      $(".black-logo").addClass('displayBlock')
     } else {
+      $(".white-logo").addClass('displayBlock')
+      $(".black-logo").removeClass('displayBlock')
+      $(".black-logo").addClass('displayNone')
       $("#mainNav").removeClass("navbar-scrolled");
     }
   };
