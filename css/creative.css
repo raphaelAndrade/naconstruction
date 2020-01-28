@@ -9763,6 +9763,29 @@ header.masthead h1 {
   }
 }
 
+@media (min-width: 1500px) {
+  .white-logo, .black-logo {
+    left: 110px;
+    width: 39%;
+  }
+  #mainNav.navbar {
+    height: 94px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .white-logo, .black-logo {
+    left: 110px;
+    width: 39%;
+  }
+  #mainNav.navbar {
+    height: 94px;
+  }
+  .mainLogo {
+    60%
+  }
+}
+
 #portfolio .container-fluid {
   max-width: 1920px;
 }
