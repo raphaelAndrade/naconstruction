@@ -583,6 +583,13 @@ pre code {
   display: none;
 }
 
+.white-logo {
+  position: absolute;
+  left: 230px;
+  top: 40px;
+}
+
+
 .mainLogo {
   position: relative;
   right: -100px;
