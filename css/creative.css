@@ -583,7 +583,7 @@ pre code {
   display: none;
 }
 
-.white-logo {
+.white-logo,.black-logo {
   position: absolute;
   left: 230px;
   top: 40px;
@@ -608,7 +608,7 @@ pre code {
 }
 
 .mainLogo img {
-  width: 80%;
+  width: 70%;
 }
 .bg-form {
   background: rgba(255, 255, 255, 0.8);
@@ -9709,6 +9709,10 @@ hr.light {
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
+    /* height: 107px; */
+  }
+  #mainNav.navbar {
+    height: 107px;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
